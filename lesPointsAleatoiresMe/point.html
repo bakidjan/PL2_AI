@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>point</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+<body onchange="draw()"><br>
+
+<div class="container text-center">
+    <h1>Escalier dans le canvas</h1>
+
+<p>
+    <input type="number" id="nbPoint" value="10">
+    <button id="btnDessiner" type="button" class="btn btn-success btn-sm">Dessiner</button>
+</p>
+    <canvas id="canvas" class="border border-info" width="300" height="200"></canvas>
+</div>
+<script src="js/point.js"></script>
+</body>
+</html>
